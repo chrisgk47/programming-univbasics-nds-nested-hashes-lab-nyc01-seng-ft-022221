@@ -31,6 +31,6 @@ def aoh_lookup(aoh, row, key)
 end
 
 def aoh_update(aoh, row, key, new_value)
-  new_value = new_value.class("String")
+  new_value = new_value.class(String)
   literal_aoh[row][key] = new_value
 end
