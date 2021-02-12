@@ -32,6 +32,5 @@ end
 
 def aoh_update(aoh, row, key, new_value)
   new_value = new_value.to_s
-  assembled_aoh[row][key] = "#{new_value}"
-  aoh_lookup
+  assembled_aoh[row][key] = "new_value"
 end
